@@ -96,38 +96,37 @@
       .hero {
         margin: 0 auto;
         max-width: var(--max);
-        padding: 86px 24px 66px;
+        padding: 54px 24px 44px;
       }
 
       .hero-grid {
-        align-items: end;
+        align-items: start;
         display: grid;
-        gap: 56px;
-        grid-template-columns: minmax(0, 1.12fr) minmax(280px, 0.88fr);
+        gap: 22px;
+        grid-template-columns: minmax(0, 820px);
       }
 
       .eyebrow {
-        color: var(--accent-dark);
+        color: var(--muted);
         font-size: 14px;
         font-weight: 700;
         margin: 0 0 16px;
       }
 
       h1 {
-        font-family: ui-serif, Georgia, "Times New Roman", serif;
-        font-size: clamp(48px, 8vw, 92px);
-        font-weight: 650;
+        font-size: clamp(38px, 5vw, 58px);
+        font-weight: 760;
         letter-spacing: 0;
-        line-height: 0.95;
+        line-height: 1.08;
         margin: 0;
       }
 
       .lead {
         color: #374151;
-        font-size: clamp(18px, 2vw, 23px);
+        font-size: clamp(17px, 1.8vw, 21px);
         line-height: 1.55;
-        margin: 26px 0 0;
-        max-width: 720px;
+        margin: 18px 0 0;
+        max-width: 760px;
       }
 
       .quick-links {
@@ -407,28 +406,6 @@
               </div>
             </div>
 
-            <figure class="research-visual" aria-label="Research focus diagram">
-              <p class="visual-title">Runtime systems for AI</p>
-              <div class="pipeline">
-                <div class="pipeline-row">
-                  <span class="pipeline-label">Admission</span>
-                  <span class="lane vip"><span></span></span>
-                </div>
-                <div class="pipeline-row">
-                  <span class="pipeline-label">Scheduling</span>
-                  <span class="lane bg"><span></span></span>
-                </div>
-                <div class="pipeline-row">
-                  <span class="pipeline-label">Context</span>
-                  <span class="lane context"><span></span></span>
-                </div>
-              </div>
-              <figcaption class="visual-note">
-                My research studies how AI runtimes expose, control, and
-                optimize scarce execution state before it becomes a latency or
-                validity bottleneck.
-              </figcaption>
-            </figure>
           </div>
         </section>
 
